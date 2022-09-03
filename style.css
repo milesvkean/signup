@@ -1,0 +1,65 @@
+.content {
+    display: flex;
+    background: rgb(243, 241, 241);
+}
+
+.logo {
+    position: absolute;
+    width: 565px;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 5.2em;
+    font-family: roboto; 
+}
+
+.form {
+    background: white;
+    text-align: left;
+    font-size: 0.8em;
+    font-family: roboto;
+    box-shadow: 10px 10px 5px lightgray;
+    width: 800px;
+    max-height: 500px;
+    margin: 8px 0;
+    padding: 20px 20px 0;
+    position: relative;
+    
+    
+}
+
+.form .signup {
+    color: pink;
+    font-size: 1.2em;
+    font-family: roboto;
+    margin: 8px 0;
+}
+
+input {
+    box-sizing: border-box;
+    width: 200px;
+    border: solid black 1px;
+    padding: 5px;
+    margin: 10px 10px 10px 0;
+}
+
+.form .input-boxes {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-flow: wrap;
+    gap: 32px;
+}
+
+
+.quote-container {
+    color: #1F2937;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-flow: column wrap;
+    padding: 90px 0px;
+}
