@@ -31,7 +31,7 @@
 .signup {
     font-size: 2em;
     font-family: roboto;
-        margin: 8px 15px;
+    margin: 8px 15px;
 }
 
 .form {
@@ -71,12 +71,12 @@ input {
     align-items: flex-start;
     justify-content: start;
     flex-flow: column wrap;
-    padding: 80px 0px;
+    padding: 55px 0px;
 }
 
 .quote {
     padding: 35px 35px 0;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 fieldset {
@@ -86,8 +86,8 @@ fieldset {
 }
 
 button {
-    background: #3882F6;
-    border: 2px solid #F9FAF8;
+    background: rgb(142, 238, 255);
+    border: 2px solid rgb(142, 238, 255);
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 8px;
