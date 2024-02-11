@@ -85,5 +85,16 @@ fieldset {
 
 .quote {
     font-size: 2em;
-    color: rgb(96, 11, 25)
+    color: rgb(96, 11, 25);
+    padding: 0px 20px;
+}
+
+button {
+    border-radius: 8px;
+    background: #ff0000;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 64px;
+    box-shadow: 5px 5px 5px lightgray;
 }
