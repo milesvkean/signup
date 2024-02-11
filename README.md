@@ -1,2 +1,2 @@
 # signup
-fake signup page for odin project
+practice signup page for odin project
