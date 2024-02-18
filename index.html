@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign-up</title>
     <link href="style.css" rel="stylesheet">
-    <script src="source.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="content">
         <div class="photo-container">
             <div class="pic">
-                    <img src="./red-ink-on-yellow-and-blue.jpeg" alt="" width="565" height="846">
-                    <div class="logo"><i>Odin</i></div>
+                    <img src="./IMG_1076.JPG" alt="" width="565" height="753">
+                    <div class="logo"><i>Real Website</i></div>
             </div>
         </div>
 
@@ -40,23 +40,24 @@
              <fieldset>
                 <div class="cell">
                     <label for="email">EMAIL</label>
-                    <input type="text" name="email" id="email">
+                    <input type="email" name="email" id="email">
                 </div>
                 <div class="cell">
                     <label for="phone_number">PHONE NUMBER</label>
-                    <input type="text" name="phone_number" id="phone_number">
+                    <input type="tel" name="phone_number" id="phone_number">
                 </div>
             </fieldset>
 
             <fieldset>
                 <div class="error">
                     <label for="password">PASSWORD</label>
-                    <input type="text" name="password" id="password">
+                    <input type="password" name="password" id="password">
+                    <div class="error_message"></div>
                 </div>
             
                 <div class="error">
                     <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="text" name="confirm_password" id="confirm_password">
+                    <input type="password" name="confirm_password" id="confirm_password">
                 </div>
             </fieldset>
           </div>
@@ -67,6 +68,7 @@
                     <button>Create Account</button>
                 
                 </div>
+                <div class="login">Already have an account?&nbsp;  <a href="https://www.instagram.com/milesvkean">Log in</a></div>
                 </div>
         </div>
         </div>
